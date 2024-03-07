@@ -1,0 +1,27 @@
+{
+ "manifest_version": 3,
+ "name": "Free Ai Chat everywhere",
+ "version": "16.4",
+ "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+ ],
+ "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icon-32.png",
+      "128": "icon.png"
+    },
+    "sidebar": {
+      "default_title": "Free Ai Chat everywhere",
+      "default_panel": "popup.html",
+      "default_icon": "icon.png",
+      "browser_style": false
+    }
+ },
+ "icons": {
+    "32": "icon-32.png",
+    "128": "icon.png"
+ }
+}
