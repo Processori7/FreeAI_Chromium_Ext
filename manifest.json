@@ -1,7 +1,7 @@
 {
  "manifest_version": 3,
- "name": "Free Ai Chat everywhere",
- "version": "16.4",
+ "name": "Free Ai Services",
+ "version": "16.5",
  "permissions": [
     "activeTab",
     "tabs",
@@ -14,7 +14,7 @@
       "128": "icon.png"
     },
     "sidebar": {
-      "default_title": "Free Ai Chat everywhere",
+      "default_title": "Free Ai Services",
       "default_panel": "popup.html",
       "default_icon": "icon.png",
       "browser_style": false

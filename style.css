@@ -1,21 +1,22 @@
 body {
-  width: auto; /* Change to auto to allow automatic adjustment */
-  min-height: 100%; /* Set a minimum height to ensure the body covers the entire viewport */
-  overflow-x: hidden;
-  overflow-y: scroll;
-  background-color: #242582; /* Dark blue background for the entire body */
+ width: 180px;
+ height: 212px;
+ overflow-x: hidden;
+ overflow-y: scroll;
+ background-color: #242582; /* Тёмно-синий фон для всего body */
 }
+
+h1 { color: #FFFF00; font-family: ‘Droid serif’, serif; font-size: 20px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; }
 
 #menu,
 #promptLinks,
 #aiMenu,
 #aiList {
-  padding-left: 0px;
-  width: 184px;
-  min-height: 575px; /* Set a minimum height for the elements */
-  background-color: #89CFF0;
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the border effect */
+ padding-left: 0px;
+ margin: 0px;
+ background-color:#89CFF0;
+ border-radius: 10px; /* Скругление углов */
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Тень для эффекта обводки */  
 }
 
 li,
